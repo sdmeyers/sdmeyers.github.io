@@ -1,3 +1,8 @@
-name: Your New Jekyll Site
+name: sdmeyers@github
 markdown: redcarpet
 pygments: true
+
+# pagination
+
+paginate: 5
+excerpt_separator: "<!--more-->"
