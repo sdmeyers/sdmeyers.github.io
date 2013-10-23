@@ -14,9 +14,10 @@ Login to your [Gmail](https://mail.google.com) account in your web browser and t
 
 <!--more-->
 
+<figure>
 ![4 Steps to to get Mail to play nice with Gmail]({{ site.url }}/images/posts/gmail_labels_1234.png)
-
 <figcaption>4 Steps to to get Mail to play nice with Gmail</figcaption>
+</figure>
 
 1. Click on Settings (that's under gear in top right corner)
 
