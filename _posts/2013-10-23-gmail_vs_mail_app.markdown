@@ -10,7 +10,10 @@ So, you just upgraded your Mac to Mavericks (a.k.a. OS X 10.9) and was happily e
 
 If you are having this problem and just need a fix, here it is (but you may not like it).
 
-Login to your [Gmail](https://mail.google.com) account in your web browser and then:
+Login to your [Gmail](https://mail.google.com) account in your web browser and then follow these 4 easy steps:
+
+![4 Steps to to get Mail to play nice with Gmail]({{ site.url }}/images/posts/gmail_labels_1234.png)
+<caption>4 Steps to to get Mail to play nice with Gmail</caption>
 
 1. Click on Settings (that's under gear in top right corner)
 
@@ -19,8 +22,6 @@ Login to your [Gmail](https://mail.google.com) account in your web browser and t
 3. Check the "Show in IMAP" box listed next to "All Mail"
 
 4. In Mail.app select **Mailbox > Synchronize > *Gmail* ** from the menu bar. Now wait for your account to synchronize, which could take a while since Mail may now download every email message you ever received in your Gmail account.
-
-![4 Steps to to get Mail to play nice with Gmail]({{ site.url }}/images/posts/gmail_labels_1234.png)
 
 Mail will now store this "All Mail" mailbox as an Archive.
 
