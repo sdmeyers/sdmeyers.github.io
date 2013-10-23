@@ -13,6 +13,7 @@ If you are having this problem and just need a fix, here it is (but you may not 
 Login to your [Gmail](https://mail.google.com) account in your web browser and then follow these 4 easy steps:
 
 ![4 Steps to to get Mail to play nice with Gmail]({{ site.url }}/images/posts/gmail_labels_1234.png)
+
 <caption>4 Steps to to get Mail to play nice with Gmail</caption>
 
 1. Click on Settings (that's under gear in top right corner)
