@@ -20,7 +20,7 @@ Login to your [Gmail](https://mail.google.com) account in your web browser and t
 
 4. In Mail.app select **Mailbox > Synchronize > *Gmail* ** from the menu bar. Now wait for your account to synchronize, which could take a while since Mail may now download every email message you ever received in your Gmail account.
 
-![Steps to fix Gmail]({{ site.url }}/images/posts/gmail_labels_1234.png)
+<img alt="Steps to fix Gmail" src="{{ site.url }}/images/posts/gmail_labels_1234.png" width="640px">
 
 Mail will now store this "All Mail" mailbox as an Archive.
 
