@@ -30,7 +30,7 @@ Login to your [Gmail](https://mail.google.com) account in your web browser and t
 
 3. Check the "Show in IMAP" box listed next to "All Mail"
 
-4. In Mail.app select **Mailbox > Synchronize > *Gmail* ** from the menu bar. Now wait for your account to synchronize, which could take a while since Mail may now download every email message you ever received in your Gmail account.
+4. In Mail.app select **Mailbox > Synchronize > Gmail** ("**Gmail**" should be replaced with whatever you call you Gmail account) from the menu bar. Now wait for your account to synchronize, which could take a while since Mail may now download every email message you ever received in your Gmail account.
 
 Mail will now store this "All Mail" mailbox as an Archive.
 
@@ -40,7 +40,7 @@ Don't like it? Well you could live with things as they are and hope Apple fixes 
 
 To be clear, Apple broke Mail.app. Before we crucify Apple alone, we should realize, that it appears that Apple was really trying improve Gmail, because Google totally screwed it up to begin with.
 
-Gmail is supposed to support IMAP, but only *kind of*/*maybe* supports IMAP. IMAP is based on the assumption that email is stored hierarchically in folders, Google does not do this. Google stores all your email (even email you thought you deleted) in one big bucket, and labels each message so that it *appears* to be contained in its appropriate Mailbox. To be fair Google tries to put some programming magic between this and your email client so that is can work (most of the time) as an IMAP server. It does this well, but not perfectly. Old Mail used to treat Gmail like an IMAP server and it mostly worked. New Mail is trying to treat Gmail like Gmail. In order for Gmail to work like Gmail it needs all the messages to sort out into mailboxes. Thus it needs "All Mail".
+Gmail is supposed to support IMAP, but only *kind of / maybe* supports IMAP. IMAP is based on the assumption that email is stored hierarchically in folders, Google does not do this. Google stores all your email (even email you thought you deleted) in one big bucket, and labels each message so that it *appears* to be contained in its appropriate Mailbox. To be fair Google tries to put some programming magic between this and your email client so that is can work (most of the time) as an IMAP server. It does this well, but not perfectly. Old Mail used to treat Gmail like an IMAP server and it mostly worked. New Mail is trying to treat Gmail like Gmail. In order for Gmail to work like Gmail it needs all the messages to sort out into mailboxes. Thus it needs "All Mail".
 
 Trouble is most people don't want Mail to act like Gmail. I don't need anyone to store all my email forever. When I hit the delete button, I'm done with it. If I want it archived, I move it into a folder that makes sense to me. I certainly don't what to store 10GB of mostly worthless old email on my hardrive, just so Mail will behave like it should.
 

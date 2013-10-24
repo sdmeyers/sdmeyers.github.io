@@ -97,13 +97,23 @@ table
 	font: 100%;
 }
 
+figure
+{
+	margin: 18px;
+	padding: 18px;
+	text-align: center;
+	background-color: #EEE;
+}
+
 figcaption
 {
+	font-family: 'Roboto Slab', serif;
 	font-size: .9em;
-	font-weight: 300;
-	font-style: italic;
-	margin-bottom: 1em;
-}	
+}
+
+strong { font-weight: bold;}
+
+em {font-style: italic;}
 
 /* @end */
 /*---------------------------------------------------------*/
