@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Mavericks and Gmail, WTF?"
-categories: OSX Gmail
+author: "Scott Meyers"
+categories: [annoyances, troubleshooting]
+tags: [OSX, Gmail, Mail.app]
 ---
 
 So, you just upgraded your Mac to Mavericks (a.k.a. OS X 10.9) and was happily enjoying your new OS, when you suddenly noticed things weren't quite right in your Mail.app. Messages that you thought you had moved or deleted keep reappearing in your INBOX. Is it you? No, it's not. It's Mavericks' Mail.app not playing nice with Gmail.

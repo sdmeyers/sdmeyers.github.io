@@ -1,0 +1,3 @@
+<nav id="booknav">
+Book Nav : >> <a href="{{ site.url }}/books/">All Books</a> >> <a href="{{ site.url }}/books/{{ page.bookdir }}/">{{page.book}}</a> {% if page.previous %} >> Previous Chapter: <a href="{{ site.url }}/books/{{ page.bookdir }}/{{ page.previousdir }}/">{{page.previous}}</a> {% endif %} {% if page.next %} >> Next Chapter:<a href="{{ site.url }}/books/{{ page.bookdir }}/{{ page.nextdir }}/">{{page.next}}</a>{% endif %}
+</nav>

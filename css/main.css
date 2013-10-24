@@ -235,3 +235,16 @@ footer
 	width:69%;
 	padding: 3%;
 }
+
+#content_book
+{
+	padding: 3%;
+}
+
+#booknav
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+	padding: 12px 0px; 
+}
