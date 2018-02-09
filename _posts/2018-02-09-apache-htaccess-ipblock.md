@@ -11,7 +11,7 @@ So, imagine your website is getting a sudden deluge of hits from a single IP add
 Just add
 
 ```ApacheConf
-    Deny from 93.175.200.201
+Deny from 93.175.200.201
 ```
 
 to your apache config or .htaccess file and go back to sleep.
@@ -25,14 +25,14 @@ Using the traditional `Deny` config statement would be problematic. You could bl
 However, with a little help from mod_rewrite and mod_setenvif you can do this marvelous thing by adding this to you .htaccess file:
 
 ```ApacheConf
-    <IfModule mod_rewrite.c>
-      <IfModule mod_setenvif.c>
-        SetEnvIf Remote_Addr ^93\.175\.(19[2-9]|20[0-7])\. DENY=1
-        Order allow,deny
-        Allow from All
-        Deny from env=DENY
-      </IfModule>
-    </IfModule>
+<IfModule mod_rewrite.c>
+  <IfModule mod_setenvif.c>
+    SetEnvIf Remote_Addr ^93\.175\.(19[2-9]|20[0-7])\. DENY=1
+    Order allow,deny
+    Allow from All
+    Deny from env=DENY
+  </IfModule>
+</IfModule>
 ```  
 
 That's it one simple RegEx to cover all the IP's in the range.
