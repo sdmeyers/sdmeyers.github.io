@@ -1,0 +1,104 @@
+/* @ Group Global Selectors */
+html {
+	font-size: 16px; /* Set's base font size for rems */
+}
+body
+{
+	background-color: #FFFFFC;
+	font-family: 'Varela', sans-serif;
+	width: 90%;
+	margin: 5%;
+}
+
+h1
+{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 600;
+	font-size: 2rem;
+}
+
+h2
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.7rem;
+	font-weight: 400;
+}
+
+h3
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+h4
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+p
+{
+	font-size: 1rem;
+	line-height: 1.5;
+	margin: .5em;
+}
+
+pre, code { font-family: 'PT Mono', monospace; }
+code { background-color: #EEE; }
+
+blockquote
+{
+	margin: 9px 72px 9px 36px;
+	padding: 18px 72px 18px 72px;
+	font-family: 'Roboto Slab', serif;
+	font-style: italic;
+	color: #633;
+	background-image: url(/images/quote.svg);
+	background-repeat: no-repeat;
+}
+
+ul, ol { margin-left: 1.5em; }
+
+li
+{
+	font-size: 1em;
+	line-height: 1.5;
+	margin: .5em;
+}
+
+a
+{
+	color: #006;
+	text-decoration: none;
+}
+
+a:visited { color: #006; }
+a:hover { color: #900; }
+
+table
+{
+	font-size: inherit;
+	font: 100%;
+}
+
+figure
+{
+	margin: 18px;
+	padding: 18px;
+	text-align: center;
+	background-color: #EEE;
+}
+
+figcaption
+{
+	font-family: 'Roboto Slab', serif;
+	font-size: .9em;
+}
+
+strong { font-weight: bold;}
+
+em {font-style: italic;}
+
+/* @end */
