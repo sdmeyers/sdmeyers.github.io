@@ -60,9 +60,11 @@ code {
 
 pre {
   width: 100%;
-  padding: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem; }
+  margin-left: 1rem;
+  margin-right: 1rem; }
+  pre code {
+    display: block;
+    padding: 1rem; }
 
 blockquote {
   margin: 9px 72px 9px 36px;
