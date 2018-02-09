@@ -56,7 +56,13 @@ pre, code {
   font-family: 'PT Mono', monospace; }
 
 code {
-  background-color: #EEE; }
+  background-color: #DDF; }
+
+pre {
+  width: 100%;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem; }
 
 blockquote {
   margin: 9px 72px 9px 36px;
