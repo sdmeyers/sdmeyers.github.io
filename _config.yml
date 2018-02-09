@@ -1,7 +1,7 @@
 title: sdmeyers@github
+description: >- geeky fun techno babble...
 email: sdmeyers@gmail.com
-url: "https://sdmeyers.github.io"
-markdown: kramdown
+guthub_username: sdmeyers
 
 permalink: /blog/:year-:month/:title.html
 
@@ -10,23 +10,3 @@ permalink: /blog/:year-:month/:title.html
 paginate: 5
 paginate_path: "blog/page:num"
 excerpt_separator: "<!--more-->"
-
-# GitHub Overrides (required)
-lsi: false
-safe: true
-incremental: false
-highlighter: rouge
-gist:
- noscript: false
-kramdown:
- math_engine: mathjax
- syntax_highlighter: rouge
-# GitHub Overrides (optional)
-encoding: UTF-8
-kramdown:
- input: GFM
- hard_wrap: false
-future: true
-jailed: false
-theme: jekyll-theme-primer
-gfm_quirks: paragraph_end
