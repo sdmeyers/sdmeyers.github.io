@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is this"
+title:  "What is this?"
 author: "Scott Meyers"
 categories: [General]
 tags: [FYI]
