@@ -1,0 +1,9 @@
+baseURL = 'https://sdmeyers.github.io/'
+languageCode = 'en-us'
+title = 'sdmeyers@github'
+theme = 'sdm-ghp'
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
+[params]
+        subtitle = '⇝ geeky fun techno babble...'
