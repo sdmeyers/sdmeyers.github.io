@@ -6,4 +6,4 @@ theme = 'sdm-ghp'
     [caches.images]
         dir = ':cacheDir/images'
 [params]
-        subtitle = '⇝ geeky fun techno babble...'
+        tagline = '⇝ geeky fun techno babble...'

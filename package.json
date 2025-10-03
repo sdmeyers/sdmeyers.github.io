@@ -1,0 +1,30 @@
+{
+  "name": "sdmeyers.github.io",
+  "version": "1.0.0",
+  "description": "postcss for github.io styles",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdmeyers/sdmeyers.github.io.git"
+  },
+  "keywords": [],
+  "author": "Scott Meyers",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sdmeyers/sdmeyers.github.io/issues"
+  },
+  "homepage": "https://github.com/sdmeyers/sdmeyers.github.io#readme",
+  "browserslist": [
+      "last 1 version",
+      "> 1%",
+      "not dead"
+    ],
+  "dependencies": {
+    "cssnano": "^7.1.1",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.1",
+    "postcss-mixins": "^12.1.2",
+    "postcss-preset-env": "^10.4.0"
+  }
+}
